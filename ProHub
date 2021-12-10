@@ -1,0 +1,216 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local Screen = Instance.new("ScreenGui")
+local UI = Instance.new("Frame")
+local BackGround = Instance.new("Frame")
+local Container = Instance.new("Frame")
+local Padding = Instance.new("UIPadding")
+local Faded = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local SwagMode = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local Destiny = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local UnderLine = Instance.new("Frame")
+local Toggle = Instance.new("TextButton")
+local Window = Instance.new("TextLabel")
+
+--Properties:
+
+Screen.Name = "Screen"
+Screen.Parent = game.CoreGui
+Screen.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+UI.Name = "UI"
+UI.Parent = Screen
+UI.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+UI.BorderSizePixel = 0
+UI.Position = UDim2.new(0, 15, 0, 15)
+UI.Size = UDim2.new(0, 190, 0, 30)
+
+BackGround.Name = "BackGround"
+BackGround.Parent = UI
+BackGround.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+BackGround.BorderSizePixel = 0
+BackGround.Position = UDim2.new(0, 0, 1, 0)
+BackGround.Size = UDim2.new(0, 190, 0, 30)
+
+Container.Name = "Container"
+Container.Parent = UI
+Container.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Container.BorderSizePixel = 0
+Container.Position = UDim2.new(0, 0, 1, 0)
+Container.Size = UDim2.new(0, 190, 0, 211)
+
+Padding.Name = "Padding"
+Padding.Parent = Container
+Padding.PaddingLeft = UDim.new(0, 10)
+Padding.PaddingTop = UDim.new(0, 5)
+
+Faded.Name = "Faded"
+Faded.Parent = Container
+Faded.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
+Faded.Position = UDim2.new(-0.0166666675, 0, 0.0181818102, 0)
+Faded.Size = UDim2.new(0, 173, 0, 46)
+Faded.Font = Enum.Font.SourceSansBold
+Faded.Text = "Faded"
+Faded.TextColor3 = Color3.fromRGB(255, 0, 4)
+Faded.TextScaled = true
+Faded.TextSize = 14.000
+Faded.TextWrapped = true
+Faded.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
+end)
+
+UICorner.Parent = Faded
+
+SwagMode.Name = "Swag Mode"
+SwagMode.Parent = Container
+SwagMode.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
+SwagMode.Position = UDim2.new(-0.0166666675, 0, 0.310679615, 0)
+SwagMode.Size = UDim2.new(0, 173, 0, 46)
+SwagMode.Font = Enum.Font.SourceSansBold
+SwagMode.Text = "Swag Mode"
+SwagMode.TextColor3 = Color3.fromRGB(255, 0, 4)
+SwagMode.TextScaled = true
+SwagMode.TextSize = 14.000
+SwagMode.TextWrapped = true
+SwagMode.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+end)
+
+UICorner_2.Parent = SwagMode
+
+Destiny.Name = "Destiny"
+Destiny.Parent = Container
+Destiny.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
+Destiny.Position = UDim2.new(-0.0166666675, 0, 0.624977946, 0)
+Destiny.Size = UDim2.new(0, 173, 0, 46)
+Destiny.Font = Enum.Font.SourceSansBold
+Destiny.Text = "Destiny"
+Destiny.TextColor3 = Color3.fromRGB(255, 0, 4)
+Destiny.TextScaled = true
+Destiny.TextSize = 14.000
+Destiny.TextWrapped = true
+Destiny.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/compwnter/destiny/main/loader'))();
+end)
+
+
+UICorner_3.Parent = Destiny
+
+UnderLine.Name = "UnderLine"
+UnderLine.Parent = UI
+UnderLine.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
+UnderLine.BorderSizePixel = 0
+UnderLine.Position = UDim2.new(0, 0, 1, -1)
+UnderLine.Size = UDim2.new(1, 0, 0, 1)
+
+Toggle.Name = "Toggle"
+Toggle.Parent = UI
+Toggle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Toggle.BackgroundTransparency = 1.000
+Toggle.Position = UDim2.new(1, -25, 0, 0)
+Toggle.Size = UDim2.new(0, 25, 1, 0)
+Toggle.Font = Enum.Font.SourceSansBold
+Toggle.Text = "X"
+Toggle.TextColor3 = Color3.fromRGB(255, 0, 0)
+Toggle.TextScaled = true
+Toggle.TextSize = 17.000
+Toggle.TextWrapped = true
+
+Window.Name = "Window"
+Window.Parent = UI
+Window.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Window.BackgroundTransparency = 1.000
+Window.Size = UDim2.new(1, 0, 1, 0)
+Window.Font = Enum.Font.SourceSans
+Window.Text = "Pro Hub"
+Window.TextColor3 = Color3.fromRGB(255, 0, 4)
+Window.TextSize = 17.000
+
+-- Scripts:
+
+local function SRQIHJ_fake_script() -- Toggle.LocalScript 
+	local script = Instance.new('LocalScript', Toggle)
+
+	local back = script.Parent.Parent.BackGround
+	local con = script.Parent.Parent.Container
+	
+	local window = {
+			count = 0;
+			toggles = {},
+			closed = false;
+		}
+		script.Parent.MouseButton1Click:connect(function()
+			window.closed = not window.closed
+			script.Parent.Text = (window.closed and "+" or "-")
+			if script.Parent.Text == "+" then
+				back:TweenSize(UDim2.new(0, 190,0, 0), "Out", "Sine", 0.5)
+				con:TweenSize(UDim2.new(0, 190,0, 0), "Out", "Sine", 0.5)
+				wait(0.1) do
+				con.Visible = false
+				end
+			else
+				back:TweenSize(UDim2.new(0, 190,0, 200), "Out", "Sine", 0.5)
+				con:TweenSize(UDim2.new(0, 190,0,200), "Out", "Sine", 0.5)
+				wait(0.2) do
+				con.Visible = true
+				end
+				end
+			
+		end)
+	
+end
+coroutine.wrap(SRQIHJ_fake_script)()
+local function KOME_fake_script() -- UI.LocalScript 
+	local script = Instance.new('LocalScript', UI)
+
+	local dragger = {}; 
+	local resizer = {};
+	
+	do
+		local mouse = game:GetService("Players").LocalPlayer:GetMouse();
+		local inputService = game:GetService('UserInputService');
+		local heartbeat = game:GetService("RunService").Heartbeat;
+		-- // credits to Ririchi / Inori for this cute drag function :)
+		function dragger.new(frame)
+		    local s, event = pcall(function()
+		    	return frame.MouseEnter
+		    end)
+	
+		    if s then
+		    	frame.Active = true;
+	
+		    	event:connect(function()
+		    		local input = frame.InputBegan:connect(function(key)
+		    			if key.UserInputType == Enum.UserInputType.MouseButton1 then
+		    				local objectPosition = Vector2.new(mouse.X - frame.AbsolutePosition.X, mouse.Y - frame.AbsolutePosition.Y);
+		    				while heartbeat:wait() and inputService:IsMouseButtonPressed(Enum.UserInputType.MouseButton1) do
+		    					frame:TweenPosition(UDim2.new(0, mouse.X - objectPosition.X + (frame.Size.X.Offset * frame.AnchorPoint.X), 0, mouse.Y - objectPosition.Y + (frame.Size.Y.Offset * frame.AnchorPoint.Y)), 'Out', 'Quad', 0.1, true);
+		    				end
+		    			end
+		    		end)
+	
+		    		local leave;
+		    		leave = frame.MouseLeave:connect(function()
+		    			input:disconnect();
+		    			leave:disconnect();
+		    		end)
+		    	end)
+		    end
+		end
+		
+		function resizer.new(p, s)
+			p:GetPropertyChangedSignal('AbsoluteSize'):connect(function()
+				s.Size = UDim2.new(s.Size.X.Scale, s.Size.X.Offset, s.Size.Y.Scale, p.AbsoluteSize.Y);
+			end)
+		end
+	end
+	script.Parent.Active = true
+	script.Parent.Draggable = true
+end
+coroutine.wrap(KOME_fake_script)()
