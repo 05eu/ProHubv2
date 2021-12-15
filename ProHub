@@ -1,4 +1,211 @@
-_9aLC6EymlBEgjEO1, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
+local Screen = Instance.new("ScreenGui")
+local UI = Instance.new("Frame")
+local BackGround = Instance.new("Frame")
+local Container = Instance.new("Frame")
+local Padding = Instance.new("UIPadding")
+local Faded = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local SwagMode = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local Destiny = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local UnderLine = Instance.new("Frame")
+local Toggle = Instance.new("TextButton")
+local Window = Instance.new("TextLabel")
+
+--Properties:
+
+Screen.Name = "Screen"
+Screen.Parent = game.CoreGui
+Screen.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+UI.Name = "UI"
+UI.Parent = Screen
+UI.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+UI.BorderSizePixel = 0
+UI.Position = UDim2.new(0, 15, 0, 15)
+UI.Size = UDim2.new(0, 190, 0, 30)
+
+BackGround.Name = "BackGround"
+BackGround.Parent = UI
+BackGround.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+BackGround.BorderSizePixel = 0
+BackGround.Position = UDim2.new(0, 0, 1, 0)
+BackGround.Size = UDim2.new(0, 190, 0, 30)
+
+Container.Name = "Container"
+Container.Parent = UI
+Container.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Container.BorderSizePixel = 0
+Container.Position = UDim2.new(0, 0, 1, 0)
+Container.Size = UDim2.new(0, 190, 0, 211)
+
+Padding.Name = "Padding"
+Padding.Parent = Container
+Padding.PaddingLeft = UDim.new(0, 10)
+Padding.PaddingTop = UDim.new(0, 5)
+
+Faded.Name = "Faded"
+Faded.Parent = Container
+Faded.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
+Faded.Position = UDim2.new(-0.0166666675, 0, 0.0181818102, 0)
+Faded.Size = UDim2.new(0, 173, 0, 46)
+Faded.Font = Enum.Font.SourceSansBold
+Faded.Text = "Faded"
+Faded.TextColor3 = Color3.fromRGB(255, 0, 4)
+Faded.TextScaled = true
+Faded.TextSize = 14.000
+Faded.TextWrapped = true
+Faded.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
+end)
+
+UICorner.Parent = Faded
+
+SwagMode.Name = "Swag Mode"
+SwagMode.Parent = Container
+SwagMode.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
+SwagMode.Position = UDim2.new(-0.0166666675, 0, 0.310679615, 0)
+SwagMode.Size = UDim2.new(0, 173, 0, 46)
+SwagMode.Font = Enum.Font.SourceSansBold
+SwagMode.Text = "Swag Mode"
+SwagMode.TextColor3 = Color3.fromRGB(255, 0, 4)
+SwagMode.TextScaled = true
+SwagMode.TextSize = 14.000
+SwagMode.TextWrapped = true
+SwagMode.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+end)
+
+UICorner_2.Parent = SwagMode
+
+Destiny.Name = "Destiny"
+Destiny.Parent = Container
+Destiny.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
+Destiny.Position = UDim2.new(-0.0166666675, 0, 0.624977946, 0)
+Destiny.Size = UDim2.new(0, 173, 0, 46)
+Destiny.Font = Enum.Font.SourceSansBold
+Destiny.Text = "Destiny"
+Destiny.TextColor3 = Color3.fromRGB(255, 0, 4)
+Destiny.TextScaled = true
+Destiny.TextSize = 14.000
+Destiny.TextWrapped = true
+Destiny.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/compwnter/destiny/main/loader'))();
+end)
 
 
-,nil,nil;(function() _msec=(function(_,__,_l)local __l__l=__[" ​            ​    "];local _ll__l=_l[_[(-#{20;20;(function()return#{('moPMKK'):find("\80")}>0 and 1 or 0 end)}+682)]][_["          ​      "]];local _ll__=(-#[[hey psst you the wrapper function is right there]]+(161+-0x6d))/((7668/(0x59+-71))/0xd5)local _l__l=(111-(((-#"lepopo"+(1314-0x2c0))-0x150)-0x9f))-(0x68/104)local ___lll=_l[_[(4484/0x26)]][_["   ​ ​             "]];local _____=((177-(((0x5dff+-24)+-#[[Consume the Cum Chalice]])/0x9e))+-#'Why are you reading this')+((0x1d88/216)+-#'sorry i broke the swear rule :(((')local __l_ll=_l[_[(1195-0x288)]][_["      ​      ​"]]local _ll=(-#"Perths Scripting Shit"+(0x116e/194))-(236/((0x437-561)-282))local __lll=(9+-#{{},65;'}',(function()return#{('kLHbhh'):find("\72")}>0 and 1 or 0 end),{},49})local _lll=((232-(185+-#{78;'}';(function()return#{('kBKKKL'):find("\75")}>0 and 1 or 0 end);78;'nil',1}))+-#'Do you even know what sizeof size_t equals to Lmao')local __l_=(((-31+(-#{'}',",";33;197}+126))+-#[[Bu ruqen kim amk her yerde goruyorum]])-52)local ___ll=(8+-#{(function()return{','}end)(),",";'}';{};81})local _llll=(-#'Guys help theyve captured me and lock me inside the obfuscator!!!! debofuscate quick to save me'+(0xda-(15600/((0x19f-(257+-#{'nil',(function()return{','}end)();(function()return#{('PHmlfh'):find("\109")}>0 and 1 or 0 end),1,(function()return#{('PHmlfh'):find("\109")}>0 and 1 or 0 end),181,(function()return{','}end)()}))+-#'Help Federal put his cock in my ass'))))local _l_l=(((-0x55+(248+(-146+0x23)))-0x25)+-#"i love wally")local __ll=(((((0x263-363)-166)+-#[[oh, i forgot i can write some shit here so ya dummies will see it]])+-0x70)+97)local _ll_=((-#'moon 3.1'+((((-113+0x76)+-#'Why are you reading this')+-59)+0x8e))-0x36)local ___=((0x8e-(0x10c-((0x4216+-46)/111)))+-#"still cant find the cum?")local ___l=((((((-0x8bf+1091)+-#"fortnite balls")/166)-0x13)+-#'JayZone Likes Men')+45)local _l__=((-0x14+(-0xa0-(25+-0x52)))+125)local ____=(0x4e-(-#{(function()return{','}end)();1;1,1}+80))local _l_l_=(((-#{",",1;'nil';",";{}}+113)-96)+-#[[Invented]])local _lll_=((466+-#{'nil',32,(function()return{','}end)();(function()return#{('OLFLOB'):find("\70")}>0 and 1 or 0 end),'nil';'}'})/115)local _l___=(8+-#{(function()return{','}end)();'nil';132,(function()return{','}end)()})local __ll_=((0xb5-((5547/(47+-#{(function()return{','}end)(),",",{};'nil'}))+-#'Perths Scripting Shit'))+-69)local ___l_=(-0x5f+(-#{(function()return{','}end)();{};{};'nil',(function()return{','}end)()}+104))local ____l=(-#[[proxide is epic]]+((-#{(function()return#{('HBOPKl'):find("\79")}>0 and 1 or 0 end),1;175,","}+3690)/194))local __ll_l=_[(-#"i love perth"+(219924/0xa4))];local _lll_l=_l[_[(184+-0x42)]][_["         "]];local ____ll=_l[(function(_)return type(_):sub(1,1)..'\101\116'end)('    ​   ')..'\109\101'..('\116\97'or'        ').._[(0x21eba/254)]];local _ll_l=_l[_[(0x2230/16)]][_["​   ​   ​​ "]];local __llll=(-#[[is kernel workie]]+(-0x13+37))-(0x20+((-#[[finally, the most perfect ship in history... teefus x sirhurt]]+(118-0x4f))-8))local _lllll=(56+(-#[[I dont mean to brag but I put together a puzzle in 1 day and the box said 2 to 4 years]]+(191-(-#[[trolled]]+((-#[[Were busy making things more awesome. Be back soon.]]+(528+-0x37))-256)))))-(0x14-18)local _l__ll=_l[_[(121+-#{'nil';",",'nil'})]][_["        ​    "]];local _l_=function(_l,_)return _l.._ end local _l_lll=(8+-#{80;'}';(function()return{','}end)(),'}'})*((0x5e+(((-0x319f5c/174)+-#"free bobux real!!!!1!")/0xe7))+-#[[deez nuts]])local _l_l_l=_l[_["         "]];local _l_ll=(0x78-118)*(-#'guys i am epic hackerman i just converted a script to string.byte'+(45162/(((-9+-0x35)+-#"hint: the script is in line 1")+0x145)))local _ll_ll=(1099+-0x4b)*(0x55+(-0x52+(71-0x48)))local ___l_l=(-#[[hi skid]]+(((0x554f38/236)-11890)/0xc8))local __l__=((-#[[porn]]+(12012/((0x87/1)+-#[[ok. how about constants that dump themselves]])))-126)*(0x1b8/220)local __l_l=_l[_["​               "]]or _l[_[(-#"JayZone Likes Men"+(0x9804/69))]][_["​               "]];local __l=(((-116+0x6f9a)+-38)/0x6f)local _=_l[_["​             "]];local __l_ll=(function(_l_)local ___,__=3,0x10 local _l={j={},v={}}local __l=-_ll local _=__+_l__l while true do _l[_l_:sub(_,(function()_=___+_ return _-_l__l end)())]=(function()__l=__l+_ll return __l end)()if __l==(_l_lll-_ll)then __l=""__=__llll break end end local __l=#_l_ while _<__l+_l__l do _l.v[__]=_l_:sub(_,(function()_=___+_ return _-_l__l end)())__=__+_ll if __%_ll__==__llll then __=_lllll _ll_l(_l.j,(_l__ll((_l[_l.v[_lllll]]*_l_lll)+_l[_l.v[_ll]])))end end return __l_ll(_l.j)end)("..:::MoonSec::..                ​          ​         ​                                ​                     ​            ​             ​                                                     ​                              ​ ​                ​           ​       ​             ​                                   ​          ​                       ​                ​          ​          ​            ​    ​     ​                        ​        ​                   ​          ​                 ​           ​        ​                ​      ​           ​                                  ​    ​                        ​                      ​                               ​                  ​                ​                                                            ​                                ​     ​       ​        ​          ​                                                        ​                           ​         ​         ​              ​                                                                                ​                                 ​               ​         ​                                                                     ​             ​                      ​             ​                                   ​​        ​​      ​                                                      ​                          ​                 ​                                           ​ ​                ​      ​​                                                                  ​        ​   
+UICorner_3.Parent = Destiny
+
+UnderLine.Name = "UnderLine"
+UnderLine.Parent = UI
+UnderLine.BackgroundColor3 = Color3.fromRGB(255, 25, 25)
+UnderLine.BorderSizePixel = 0
+UnderLine.Position = UDim2.new(0, 0, 1, -1)
+UnderLine.Size = UDim2.new(1, 0, 0, 1)
+
+Toggle.Name = "Toggle"
+Toggle.Parent = UI
+Toggle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Toggle.BackgroundTransparency = 1.000
+Toggle.Position = UDim2.new(1, -25, 0, 0)
+Toggle.Size = UDim2.new(0, 25, 1, 0)
+Toggle.Font = Enum.Font.SourceSansBold
+Toggle.Text = "X"
+Toggle.TextColor3 = Color3.fromRGB(255, 0, 0)
+Toggle.TextScaled = true
+Toggle.TextSize = 17.000
+Toggle.TextWrapped = true
+
+Window.Name = "Window"
+Window.Parent = UI
+Window.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Window.BackgroundTransparency = 1.000
+Window.Size = UDim2.new(1, 0, 1, 0)
+Window.Font = Enum.Font.SourceSans
+Window.Text = "Pro Hub"
+Window.TextColor3 = Color3.fromRGB(255, 0, 4)
+Window.TextSize = 17.000
+
+-- Scripts:
+
+local function SRQIHJ_fake_script() -- Toggle.LocalScript 
+	local script = Instance.new('LocalScript', Toggle)
+
+	local back = script.Parent.Parent.BackGround
+	local con = script.Parent.Parent.Container
+	
+	local window = {
+			count = 0;
+			toggles = {},
+			closed = false;
+		}
+		script.Parent.MouseButton1Click:connect(function()
+			window.closed = not window.closed
+			script.Parent.Text = (window.closed and "+" or "-")
+			if script.Parent.Text == "+" then
+				back:TweenSize(UDim2.new(0, 190,0, 0), "Out", "Sine", 0.5)
+				con:TweenSize(UDim2.new(0, 190,0, 0), "Out", "Sine", 0.5)
+				wait(0.1) do
+				con.Visible = false
+				end
+			else
+				back:TweenSize(UDim2.new(0, 190,0, 200), "Out", "Sine", 0.5)
+				con:TweenSize(UDim2.new(0, 190,0,200), "Out", "Sine", 0.5)
+				wait(0.2) do
+				con.Visible = true
+				end
+				end
+			
+		end)
+	
+end
+coroutine.wrap(SRQIHJ_fake_script)()
+local function KOME_fake_script() -- UI.LocalScript 
+	local script = Instance.new('LocalScript', UI)
+
+	local dragger = {}; 
+	local resizer = {};
+	
+	do
+		local mouse = game:GetService("Players").LocalPlayer:GetMouse();
+		local inputService = game:GetService('UserInputService');
+		local heartbeat = game:GetService("RunService").Heartbeat;
+		-- // credits to Ririchi / Inori for this cute drag function :)
+		function dragger.new(frame)
+		    local s, event = pcall(function()
+		    	return frame.MouseEnter
+		    end)
+	
+		    if s then
+		    	frame.Active = true;
+	
+		    	event:connect(function()
+		    		local input = frame.InputBegan:connect(function(key)
+		    			if key.UserInputType == Enum.UserInputType.MouseButton1 then
+		    				local objectPosition = Vector2.new(mouse.X - frame.AbsolutePosition.X, mouse.Y - frame.AbsolutePosition.Y);
+		    				while heartbeat:wait() and inputService:IsMouseButtonPressed(Enum.UserInputType.MouseButton1) do
+		    					frame:TweenPosition(UDim2.new(0, mouse.X - objectPosition.X + (frame.Size.X.Offset * frame.AnchorPoint.X), 0, mouse.Y - objectPosition.Y + (frame.Size.Y.Offset * frame.AnchorPoint.Y)), 'Out', 'Quad', 0.1, true);
+		    				end
+		    			end
+		    		end)
+	
+		    		local leave;
+		    		leave = frame.MouseLeave:connect(function()
+		    			input:disconnect();
+		    			leave:disconnect();
+		    		end)
+		    	end)
+		    end
+		end
+		
+		function resizer.new(p, s)
+			p:GetPropertyChangedSignal('AbsoluteSize'):connect(function()
+				s.Size = UDim2.new(s.Size.X.Scale, s.Size.X.Offset, s.Size.Y.Scale, p.AbsoluteSize.Y);
+			end)
+		end
+	end
+	script.Parent.Active = true
+	script.Parent.Draggable = true
+end
+coroutine.wrap(KOME_fake_script)()
