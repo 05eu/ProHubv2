@@ -1,3 +1,8 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
 local Screen = Instance.new("ScreenGui")
 local UI = Instance.new("Frame")
 local BackGround = Instance.new("Frame")
@@ -7,7 +12,7 @@ local Faded = Instance.new("TextButton")
 local UICorner = Instance.new("UICorner")
 local SwagMode = Instance.new("TextButton")
 local UICorner_2 = Instance.new("UICorner")
-local Destiny = Instance.new("TextButton")
+local CarlHub = Instance.new("TextButton")
 local UICorner_3 = Instance.new("UICorner")
 local UnderLine = Instance.new("Frame")
 local Toggle = Instance.new("TextButton")
@@ -60,6 +65,7 @@ Faded.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
 end)
 
+
 UICorner.Parent = Faded
 
 SwagMode.Name = "Swag Mode"
@@ -79,23 +85,22 @@ end)
 
 UICorner_2.Parent = SwagMode
 
-Destiny.Name = "Destiny"
-Destiny.Parent = Container
-Destiny.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
-Destiny.Position = UDim2.new(-0.0166666675, 0, 0.624977946, 0)
-Destiny.Size = UDim2.new(0, 173, 0, 46)
-Destiny.Font = Enum.Font.SourceSansBold
-Destiny.Text = "Destiny"
-Destiny.TextColor3 = Color3.fromRGB(255, 0, 4)
-Destiny.TextScaled = true
-Destiny.TextSize = 14.000
-Destiny.TextWrapped = true
-Destiny.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/compwnter/destiny/main/loader'))();
+CarlHub.Name = "CarlHub"
+CarlHub.Parent = Container
+CarlHub.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
+CarlHub.Position = UDim2.new(-0.0166666675, 0, 0.624977946, 0)
+CarlHub.Size = UDim2.new(0, 173, 0, 46)
+CarlHub.Font = Enum.Font.SourceSansBold
+CarlHub.Text = "CarlHub"
+CarlHub.TextColor3 = Color3.fromRGB(255, 0, 4)
+CarlHub.TextScaled = true
+CarlHub.TextSize = 14.000
+CarlHub.TextWrapped = true
+CarlHub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/carlcoded/carlispro/main/carlhub'))()
 end)
 
-
-UICorner_3.Parent = Destiny
+UICorner_3.Parent = CarlHub
 
 UnderLine.Name = "UnderLine"
 UnderLine.Parent = UI
@@ -129,7 +134,7 @@ Window.TextSize = 17.000
 
 -- Scripts:
 
-local function SRQIHJ_fake_script() -- Toggle.LocalScript 
+local function FXLZF_fake_script() -- Toggle.LocalScript 
 	local script = Instance.new('LocalScript', Toggle)
 
 	local back = script.Parent.Parent.BackGround
@@ -160,8 +165,8 @@ local function SRQIHJ_fake_script() -- Toggle.LocalScript
 		end)
 	
 end
-coroutine.wrap(SRQIHJ_fake_script)()
-local function KOME_fake_script() -- UI.LocalScript 
+coroutine.wrap(FXLZF_fake_script)()
+local function ZQUEIQN_fake_script() -- UI.LocalScript 
 	local script = Instance.new('LocalScript', UI)
 
 	local dragger = {}; 
@@ -208,4 +213,4 @@ local function KOME_fake_script() -- UI.LocalScript
 	script.Parent.Active = true
 	script.Parent.Draggable = true
 end
-coroutine.wrap(KOME_fake_script)()
+coroutine.wrap(ZQUEIQN_fake_script)()
